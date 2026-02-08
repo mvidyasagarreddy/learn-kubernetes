@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cache pod
+  labels:
+    env: prod
+spec:
+  containers:
+    - name: redis
+      image: redis123
