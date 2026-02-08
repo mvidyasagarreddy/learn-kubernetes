@@ -36,3 +36,7 @@ kubectl get pods
 
 kubectl get all
 
+# ##########################
+kubectl rollout status deployment/<deploymentname>
+
+kubectl rollout history deployment/<deploymentname>
